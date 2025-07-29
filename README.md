@@ -23,7 +23,7 @@ As explained normally the script installs the dependencies automaticly and finds
 git clone git@github.com:TheUnixDemon/EncryptedDirectory.git && ./EncryptedDirectory/src/main.sh 
 ```
 
-For using this script later on look into [Start Script](#shelllevelonetwo). Also if you want to use the [arguments](#args) inside of the encrypted environment that you will enter after starting the script, make use of the explaination inside of [**Private Directory**](#shelllevelthree) to load this script inside of the same shell level. Furthermore to check or alter the settings of this script go to [**Settings**](#settings).
+For using this script later on look into *[Start Script](#shelllevelonetwo)*. Also if you want to use the *[arguments](#args)* inside of the encrypted environment that you will enter after starting the script, make use of the explaination of *[Private Directory](#shelllevelthree)* to load this script inside of the same shell level . Furthermore to check or alter the settings of this script go to *[Settings](#settings)*.
 
 <a name="args"></a>
 ### Arguments
