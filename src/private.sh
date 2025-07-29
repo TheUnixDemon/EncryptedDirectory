@@ -27,6 +27,7 @@ firefoxStart() {
             rm -f "$FIREFOXLOG" && touch "$FIREFOXLOG"
         fi
         firefox --no-remote --profile "$PROFILEPATH" > /dev/null 2> $FIREFOXLOG &
+        disown # disowning firefox process
         if [[ $? -ne 0 ]]; then
             echo "starting Firefox with profile located at *$PROFILEPATH* was unsuccessful"
         fi
