@@ -66,7 +66,6 @@ As explained at the beginning, you can alter the default settings at `./src/env.
 
 ```bash
 #!/bin/bash 
-
 ...
 # options
 SOUND="false"       # enable/disable sox notification feedback for unmounting
